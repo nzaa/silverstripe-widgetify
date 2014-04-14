@@ -1,0 +1,143 @@
+.log-ok {
+	color: green; 
+}
+
+.log-error {
+	color: red;
+}
+
+.tabs {
+	border-bottom: 1px solid #c0c0c0;
+	clear: both;
+	overflow: hidden;
+	margin: 10px 0;
+}
+
+.tabs a { 
+	float: left; 
+	display: block; 
+	background: #fff; 
+	text-decoration: none !important;
+	padding: 5px 10px;
+	border-top: 1px solid #c0c0c0;
+	border-right: 1px solid #c0c0c0;
+	border-left: 1px solid #c0c0c0;
+	font-weight: bold;
+	margin-right: 10px;
+}
+
+.tabs a:hover, .tabs a.selected {
+	background: green;
+	color: #fff;
+}
+
+
+#widgetifyLog {
+	height: 50px;
+	overflow-y: scroll;
+	border: 1px solid #d6d6d6;
+	background: #fff;
+	padding: 5px; 
+}
+
+#widgetifyLog p {
+	margin: 0;
+}
+
+#widgetifyPreview {
+	background: #fff;
+	border: 5px solid #d6d6d6;
+	border-radius: 5px;
+	box-shadow: 5px 5px 5px #888888;
+	padding: 5px;
+	overflow: hidden;
+	margin-bottom: 20px;
+	width: 98.5%;
+	margin: 10px 10px 30px 0;
+	position: relative;
+	min-height: 80px;
+}
+
+.edit-content {
+	font-weight: bold;
+	font-size: 10px;
+	margin-left: 5px;
+}
+
+.widget-selector-options {
+	background: #d6d6d6;
+	padding: 3px;
+	border-bottom: 1px solid #c0c0c0;
+	border-right: 1px solid #c0c0c0;
+	margin-bottom: 5px; 
+}
+
+.widget-selector-options select {
+	font-size: 10px !important;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.hidden {
+	display: none;
+}
+
+#WidgetDynamicContentHolder {
+	display: none;
+	position: absolute;
+	background: #d6d6d6;
+	box-shadow: 5px 5px 5px #888888;
+	padding: 5px;
+	border-radius: 5px;
+	display: none;
+	left: 10%;
+	width: 70%;
+	z-index: 999;
+}
+
+#edit-widget-title {
+	font-weight: bold;
+	font-size: 14px;
+	text-align: center;
+	margin: 10px 0 !important;	
+}
+
+.widget-edit-actions {
+	text-align: center;
+	margin: 5px 0 !important;
+}
+
+.widgetify-loading {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 99;
+	background: #fff;
+	opacity: 0.8;
+} 
+
+.widgetify-loading p {
+	background: #e1e1e1 url(../images/loading.gif) 10px 5px no-repeat;
+	border: 1px solid #D0D0D0;
+	border-radius: 5px 5px 5px 5px;
+	line-height: 43px !important;
+	margin: 25px !important;
+	padding-left: 50px;
+	width: 87px;	
+}
+
+.widgetify-related {
+	background: #fff;
+	width: 100%;
+	margin: 20px 0 40px; 
+}
+
+.widgetify-related td {
+	margin: 1px;
+	padding: 5px;
+} 
+
+.widgetify-related .table-header td {
+	font-weight: bold;	
+	background: #d6d6d6;
+}
